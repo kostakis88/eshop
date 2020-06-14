@@ -1,6 +1,18 @@
-<div class="menu">
+<nav class="menu">
   <div class="small-6">
-    <%= image_tag(asset_path('fake_logo.png'), class: "menu_icon") %>
+    <%= image_tag(asset_path('fake_logo.png'), class: "menu__logo") %>
   </div>
-  <div class="small-6"></div>
-</div>
+  <div class="small-6">
+    <ul class="list list--horizontal">
+      <li>
+        <a href="#0" class="menu__item">Collection</a>
+      </li>
+      <li>
+        <a href="#0" class="menu__item">About Us</a>
+      </li>
+      <li>
+        <a href="#0" class="menu__item">My Shopping Bag</a>
+      </li>
+    </ul>
+  </div>
+</nav>
