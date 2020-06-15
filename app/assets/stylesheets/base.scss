@@ -1,9 +1,16 @@
+$primary-color: #454d54;
+
 a {
   text-decoration: none;
+  color: $primary-color;
 }
 
 .list {
   list-style: none;
   padding: 0;
   margin: 0;
+  &--horizontal {
+    display: flex;
+    align-items: center;
+  }
 } 
