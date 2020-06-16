@@ -6,3 +6,9 @@
 .small-6 {
   width: 50%;
 }
+
+.large-3 {
+  @media all and (min-width: 1025px) {
+    width: 25%;
+  }
+}
