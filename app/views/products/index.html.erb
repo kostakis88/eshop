@@ -1,10 +1,12 @@
-<h1>Collection</h1>
-
-<div class="grid-x">
-  <% @products.each do |product| %>
-    <div class="large-3">
-      <%= image_tag(product.image_url, :class => "product__img") %>
-      <div class="product__title"><%= product.title %></div>
-      <div class="product__price"><%= product.price %></div>
-    </div>
-  <% end %>
+<div class="grid-container">
+  <h1>Collection</h1>
+  <div class="grid-x">
+    <% @products.each do |product| %>
+      <div class="large-3">
+        <%= image_tag(product.image_url, :class => "product__img") %>
+        <div class="product__title"><%= product.title %></div>
+        <div class="product__price"><%= product.price %></div>
+      </div>
+    <% end %>
+  </div>
+<div>
